@@ -14,18 +14,17 @@ export function SiteHeader({ locale = "en" }: { locale?: string }) {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-[#090b12]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-4 py-3 sm:px-6 lg:px-8">
-        <Link href={localizePath("/", locale)} className="flex min-w-0 items-center gap-3">
+        <Link href={localizePath("/", locale)} className="flex min-w-[180px] items-center gap-3">
           <Image
-            src="/images/main-capsule.webp"
-            alt="Card Chronicles official Roblox thumbnail"
-            width={112}
-            height={64}
-            className="h-11 w-20 rounded-sm object-cover shadow-lg shadow-black/40"
+            src="/logo.png"
+            alt="Card Chronicles Wiki logo"
+            width={48}
+            height={48}
+            className="h-11 w-11 rounded-md object-cover shadow-lg shadow-black/40"
             priority
           />
           <div className="hidden min-w-0 sm:block">
-            <div className="truncate text-sm font-black uppercase tracking-wide text-amber-100">{messages.site.shortName}</div>
-            <div className="hidden text-xs text-slate-400 sm:block">{messages.site.tagline}</div>
+            <div className="truncate text-base font-black text-amber-100">{messages.site.shortName}</div>
           </div>
         </Link>
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">

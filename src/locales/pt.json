@@ -2,15 +2,15 @@
   "site": {
     "name": "Card Chronicles Wiki",
     "shortName": "Card Chronicles",
-    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
-    "tagline": "Cartas, forma??es, upgrades, ondas e ranks.",
-    "legalNotice": "Esta wiki independente feita por f?s n?o ? afiliada ? Roblox ou ? Chronicle Entertainment."
+    "description": "Card Chronicles Wiki cobre códigos Roblox, rolagem de cartas, upgrades, formações, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "tagline": "Cartas, formações, upgrades, ondas e ranks.",
+    "legalNotice": "Esta wiki independente feita por fãs não é afiliada à Roblox ou à Chronicle Entertainment."
   },
   "nav": {
     "guide": "Guia",
-    "codes": "C?digos",
+    "codes": "Códigos",
     "cards": "Cartas",
-    "lineup": "Forma??o",
+    "lineup": "Formação",
     "upgrades": "Upgrades",
     "waves": "Ondas",
     "ranks": "Ranks",
@@ -51,12 +51,12 @@
   "home": {
     "meta": {
       "title": "Card Chronicles Wiki - Codes, Cards, Guide",
-      "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG."
+      "description": "Card Chronicles Wiki cobre códigos Roblox, rolagem de cartas, upgrades, formações, ondas, ranks e dicas para iniciantes do jogo anime RNG."
     },
     "hero": {
-      "eyebrow": "Wiki de f?s da comunidade",
+      "eyebrow": "Wiki de fãs da comunidade",
       "title": "Card Chronicles",
-      "description": "Domine o ciclo RNG de cartas anime no Roblox com guias de rolagem, upgrades, forma??es, ondas e ranks. Esta wiki separa informa??es verificadas de rumores.",
+      "description": "Domine o ciclo RNG de cartas anime no Roblox com guias de rolagem, upgrades, formações, ondas e ranks. Esta wiki separa informações verificadas de rumores.",
       "stats": [
         "Roblox experience",
         "Simulation",
@@ -64,9 +64,9 @@
         "Max 20 players",
         "Updated Jun 27, 2026"
       ],
-      "primaryCta": "Come?ar guia inicial",
+      "primaryCta": "Começar guia inicial",
       "secondaryCta": "Explorar cartas",
-      "tertiaryCta": "Ver c?digos ativos",
+      "tertiaryCta": "Ver códigos ativos",
       "videoLabel": "Official Roblox media"
     },
     "video": {
@@ -116,7 +116,7 @@
       ]
     },
     "aboutGame": {
-      "title": "O que ? Card Chronicles?",
+      "title": "O que é Card Chronicles?",
       "paragraphs": [
         "Card Chronicles is a Roblox anime card RNG and incremental simulator experience by Chronicle Entertainment. The official description focuses on rolling cards, upgrading them, unlocking abilities, and using favorite cards in combat.",
         "The long-term loop is built around planning your lineup, fighting endless waves of card enemies, climbing ranks, and chasing rare cards. This wiki separates verified Roblox information from unconfirmed community claims."
@@ -155,7 +155,7 @@
       "modules": [
         {
           "order": 1,
-          "name": "Card Chronicles C?digos",
+          "name": "Card Chronicles Códigos",
           "description": "Track whether Card Chronicles has any official active Roblox redeem codes. No active official code is confirmed from the Roblox page or verified public official sources at this collection time, so this module keeps clear placeholders instead of inventing rewards.",
           "href": "/codes",
           "displayType": "code-cards",
@@ -387,8 +387,8 @@
   },
   "footer": {
     "aboutTitle": "Card Chronicles Wiki",
-    "about": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
-    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "about": "Card Chronicles Wiki cobre códigos Roblox, rolagem de cartas, upgrades, formações, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "description": "Card Chronicles Wiki cobre códigos Roblox, rolagem de cartas, upgrades, formações, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
     "playGame": "Play Card Chronicles",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
@@ -398,7 +398,7 @@
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "C?digos",
+    "activeCodes": "Códigos",
     "viewAllCodes": "View all codes",
     "home": "Home",
     "readMore": "Ler mais",
@@ -408,16 +408,16 @@
   "sidebarCodes": [
     {
       "code": "None",
-      "reward": "C?digos: no official active redeem code confirmed"
+      "reward": "Códigos: nenhum código oficial ativo confirmado"
     },
     {
       "code": "None",
-      "reward": "Check official Roblox channels for future rewards"
+      "reward": "Verifique os canais oficiais do Roblox para recompensas futuras"
     }
   ],
   "metadata": {
     "title": "Card Chronicles Wiki",
-    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "description": "Card Chronicles Wiki cobre códigos Roblox, rolagem de cartas, upgrades, formações, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
     "keywords": "card chronicles codes, card chronicles guide, card chronicles cards"
   }
 }

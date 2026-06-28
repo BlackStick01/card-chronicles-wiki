@@ -13,6 +13,16 @@ export default function RootPage() {
     name: messages.site.name,
     url: absoluteUrl("/"),
     description: messages.metadata.description,
+    publisher: {
+      "@type": "Organization",
+      name: messages.site.name,
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl("/logo.png"),
+        width: 512,
+        height: 512,
+      },
+    },
     primaryImageOfPage: {
       "@type": "ImageObject",
       url: absoluteUrl("/images/og-image.png"),

@@ -60,7 +60,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     "@type": "Organization",
     name: messages.site.name,
     url: absoluteUrl(getHomePath(safeLocale)),
-    logo: absoluteUrl("/google-favicon.png"),
+    logo: absoluteUrl("/logo.png"),
     image: absoluteUrl("/images/og-image.png"),
     sameAs: [
       "https://www.roblox.com/games/114758508835875/Card-Chronicles",

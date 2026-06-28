@@ -2,15 +2,15 @@
   "site": {
     "name": "Card Chronicles Wiki",
     "shortName": "Card Chronicles",
-    "description": "Card Chronicles Wiki cubre c?digos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
+    "description": "Card Chronicles Wiki cubre códigos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
     "tagline": "Cartas, alineaciones, mejoras, oleadas y rangos.",
-    "legalNotice": "Esta wiki independiente hecha por fans no est? afiliada a Roblox ni a Chronicle Entertainment."
+    "legalNotice": "Esta wiki independiente hecha por fans no está afiliada a Roblox ni a Chronicle Entertainment."
   },
   "nav": {
-    "guide": "Gu?a",
-    "codes": "C?digos",
+    "guide": "Guía",
+    "codes": "Códigos",
     "cards": "Cartas",
-    "lineup": "Alineaci?n",
+    "lineup": "Alineación",
     "upgrades": "Mejoras",
     "waves": "Oleadas",
     "ranks": "Rangos",
@@ -51,12 +51,12 @@
   "home": {
     "meta": {
       "title": "Card Chronicles Wiki - Codes, Cards, Guide",
-      "description": "Card Chronicles Wiki cubre c?digos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG."
+      "description": "Card Chronicles Wiki cubre códigos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG."
     },
     "hero": {
       "eyebrow": "Wiki comunitaria de fans",
       "title": "Card Chronicles",
-      "description": "Domina el ciclo RNG de cartas anime en Roblox con gu?as sobre tiradas, mejoras, alineaciones, oleadas y rangos. Esta wiki separa la informaci?n verificada de los rumores.",
+      "description": "Domina el ciclo RNG de cartas anime en Roblox con guías sobre tiradas, mejoras, alineaciones, oleadas y rangos. Esta wiki separa la información verificada de los rumores.",
       "stats": [
         "Roblox experience",
         "Simulation",
@@ -64,9 +64,9 @@
         "Max 20 players",
         "Updated Jun 27, 2026"
       ],
-      "primaryCta": "Empezar gu?a inicial",
+      "primaryCta": "Empezar guía inicial",
       "secondaryCta": "Explorar cartas",
-      "tertiaryCta": "Ver c?digos activos",
+      "tertiaryCta": "Ver códigos activos",
       "videoLabel": "Official Roblox media"
     },
     "video": {
@@ -76,7 +76,7 @@
     },
     "recent": {
       "eyebrow": "Recent Updates",
-      "title": "Gu?as nuevas de Card Chronicles",
+      "title": "Guías nuevas de Card Chronicles",
       "description": "Latest seoscout articles connected to the wiki navigation and sitemap."
     },
     "start": {
@@ -116,7 +116,7 @@
       ]
     },
     "aboutGame": {
-      "title": "?Qu? es Card Chronicles?",
+      "title": "¿Qué es Card Chronicles?",
       "paragraphs": [
         "Card Chronicles is a Roblox anime card RNG and incremental simulator experience by Chronicle Entertainment. The official description focuses on rolling cards, upgrading them, unlocking abilities, and using favorite cards in combat.",
         "The long-term loop is built around planning your lineup, fighting endless waves of card enemies, climbing ranks, and chasing rare cards. This wiki separates verified Roblox information from unconfirmed community claims."
@@ -150,12 +150,12 @@
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explora gu?as de Card Chronicles",
+      "title": "Explora guías de Card Chronicles",
       "description": "Start with verified Roblox information, then move into focused guides for codes, card rolling, upgrades, lineups, waves, ranks, and system notes.",
       "modules": [
         {
           "order": 1,
-          "name": "Card Chronicles C?digos",
+          "name": "Card Chronicles Códigos",
           "description": "Track whether Card Chronicles has any official active Roblox redeem codes. No active official code is confirmed from the Roblox page or verified public official sources at this collection time, so this module keeps clear placeholders instead of inventing rewards.",
           "href": "/codes",
           "displayType": "code-cards",
@@ -178,7 +178,7 @@
         },
         {
           "order": 2,
-          "name": "Card Chronicles Gu?a",
+          "name": "Card Chronicles Guía",
           "description": "Start with the verified Roblox loop: roll cards, use favorite cards to fight, upgrade, unlock abilities, plan your lineup, and push through waves. This guide should help new players understand what is confirmed before they chase rare cards or rank progress.",
           "href": "/guide/beginner-guide",
           "displayType": "step-by-step",
@@ -387,8 +387,8 @@
   },
   "footer": {
     "aboutTitle": "Card Chronicles Wiki",
-    "about": "Card Chronicles Wiki cubre c?digos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
-    "description": "Card Chronicles Wiki cubre c?digos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
+    "about": "Card Chronicles Wiki cubre códigos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
+    "description": "Card Chronicles Wiki cubre códigos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
     "playGame": "Play Card Chronicles",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
@@ -398,26 +398,26 @@
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "C?digos",
+    "activeCodes": "Códigos",
     "viewAllCodes": "View all codes",
     "home": "Home",
-    "readMore": "Leer m?s",
-    "latestArticles": "Art?culos recientes",
+    "readMore": "Leer más",
+    "latestArticles": "Artículos recientes",
     "allArticles": "All Articles"
   },
   "sidebarCodes": [
     {
       "code": "None",
-      "reward": "C?digos: no official active redeem code confirmed"
+      "reward": "Códigos: no hay ningún código oficial activo confirmado"
     },
     {
       "code": "None",
-      "reward": "Check official Roblox channels for future rewards"
+      "reward": "Revisa los canales oficiales de Roblox para futuras recompensas"
     }
   ],
   "metadata": {
     "title": "Card Chronicles Wiki",
-    "description": "Card Chronicles Wiki cubre c?digos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
+    "description": "Card Chronicles Wiki cubre códigos de Roblox, tiradas de cartas, mejoras, alineaciones, oleadas, rangos y consejos para principiantes del juego anime RNG.",
     "keywords": "card chronicles codes, card chronicles guide, card chronicles cards"
   }
 }

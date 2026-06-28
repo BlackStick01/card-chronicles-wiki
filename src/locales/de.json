@@ -2,9 +2,9 @@
   "site": {
     "name": "Card Chronicles Wiki",
     "shortName": "Card Chronicles",
-    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, R?nge und Einsteigertipps f?r das Anime-RNG-Spiel.",
-    "tagline": "Karten, Lineups, Upgrades, Wellen und R?nge.",
-    "legalNotice": "Dieses unabh?ngige Fan-Wiki ist nicht mit Roblox oder Chronicle Entertainment verbunden."
+    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, Ränge und Einsteigertipps für das Anime-RNG-Spiel.",
+    "tagline": "Karten, Lineups, Upgrades, Wellen und Ränge.",
+    "legalNotice": "Dieses unabhängige Fan-Wiki ist nicht mit Roblox oder Chronicle Entertainment verbunden."
   },
   "nav": {
     "guide": "Guide",
@@ -13,7 +13,7 @@
     "lineup": "Lineup",
     "upgrades": "Upgrades",
     "waves": "Wellen",
-    "ranks": "R?nge",
+    "ranks": "Ränge",
     "system": "System"
   },
   "guide": {
@@ -51,12 +51,12 @@
   "home": {
     "meta": {
       "title": "Card Chronicles Wiki - Codes, Cards, Guide",
-      "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, R?nge und Einsteigertipps f?r das Anime-RNG-Spiel."
+      "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, Ränge und Einsteigertipps für das Anime-RNG-Spiel."
     },
     "hero": {
       "eyebrow": "Fan-Wiki der Community",
       "title": "Card Chronicles",
-      "description": "Meistere die Roblox-Anime-Karten-RNG-Schleife mit Guides zum Kartenrollen, Upgraden, Lineups, Wellen und R?ngen. Dieses Fan-Wiki markiert unbest?tigte Details klar.",
+      "description": "Meistere die Roblox-Anime-Karten-RNG-Schleife mit Guides zum Kartenrollen, Upgraden, Lineups, Wellen und Rängen. Dieses Fan-Wiki markiert unbestätigte Details klar.",
       "stats": [
         "Roblox experience",
         "Simulation",
@@ -66,7 +66,7 @@
       ],
       "primaryCta": "Einsteiger-Guide starten",
       "secondaryCta": "Karten ansehen",
-      "tertiaryCta": "Aktive Codes pr?fen",
+      "tertiaryCta": "Aktive Codes prüfen",
       "videoLabel": "Official Roblox media"
     },
     "video": {
@@ -387,8 +387,8 @@
   },
   "footer": {
     "aboutTitle": "Card Chronicles Wiki",
-    "about": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, R?nge und Einsteigertipps f?r das Anime-RNG-Spiel.",
-    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, R?nge und Einsteigertipps f?r das Anime-RNG-Spiel.",
+    "about": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, Ränge und Einsteigertipps für das Anime-RNG-Spiel.",
+    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, Ränge und Einsteigertipps für das Anime-RNG-Spiel.",
     "playGame": "Play Card Chronicles",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
@@ -408,16 +408,16 @@
   "sidebarCodes": [
     {
       "code": "None",
-      "reward": "Codes: no official active redeem code confirmed"
+      "reward": "Codes: kein offiziell aktiver Einlösecode bestätigt"
     },
     {
       "code": "None",
-      "reward": "Check official Roblox channels for future rewards"
+      "reward": "Prüfe offizielle Roblox-Kanäle für zukünftige Belohnungen"
     }
   ],
   "metadata": {
     "title": "Card Chronicles Wiki",
-    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, R?nge und Einsteigertipps f?r das Anime-RNG-Spiel.",
+    "description": "Card Chronicles Wiki behandelt Roblox-Codes, Kartenrollen, Upgrades, Lineups, Wellen, Ränge und Einsteigertipps für das Anime-RNG-Spiel.",
     "keywords": "card chronicles codes, card chronicles guide, card chronicles cards"
   }
 }

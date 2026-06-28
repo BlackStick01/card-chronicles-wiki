@@ -5,7 +5,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const expectedLocales = ["en", "de", "es", "pt"];
-const expectedArticleCount = 19;
+const expectedArticleCount = 11;
 const expectedCategories = ["guide", "codes", "cards", "lineup", "upgrades", "waves", "ranks", "system"];
 const bannedPatterns = [
   /Yu-Gi-Oh/i,
@@ -26,7 +26,22 @@ const bannedPatterns = [
   /Dogmatika/i,
   /Tri-Brigade/i,
   /Card Kingdom/i,
+  /Crutch Cards/i,
+  /cannabis/i,
+  /Z-Man Games/i,
+  /Seiji Kanai/i,
+  /cardchroniclesgame\.com/i,
+  /Jan-Joachim/i,
+  /Müller/i,
+  /Eternia/i,
+  /Masters of the Universe/i,
+  /Maestros del Universo/i,
+  /Mestres do Universo/i,
+  /Mattel/i,
+  /Lovebrush/i,
 ];
+const mojibakePattern = /[\u4e00-\u9fff\uFFFD]/;
+const brokenQuestionMarkPattern = /[A-Za-z]\?[A-Za-z]/;
 
 function fail(message) {
   console.error(`content quality check failed: ${message}`);
@@ -88,6 +103,9 @@ for (const locale of expectedLocales) {
     }
 
     const text = fs.readFileSync(file, "utf8");
+    if (mojibakePattern.test(text)) {
+      fail(`${path.relative(root, file)} contains CJK/replacement characters that indicate mojibake`);
+    }
     const banned = bannedPatterns.find((pattern) => pattern.test(text));
     if (banned) {
       fail(`${path.relative(root, file)} contains banned off-game term ${banned}`);
@@ -111,6 +129,15 @@ if (!Array.isArray(generatedContent) || generatedContent.length !== expectedArti
 }
 
 for (const locale of expectedLocales) {
+  const localeMessages = readText(`src/locales/${locale}.json`);
+  if (mojibakePattern.test(localeMessages)) {
+    fail(`src/locales/${locale}.json contains CJK/replacement characters that indicate mojibake`);
+  }
+  const localeMessagesWithoutUrls = localeMessages.replace(/https?:\/\/[^\s"]+/g, "");
+  if (brokenQuestionMarkPattern.test(localeMessagesWithoutUrls)) {
+    fail(`src/locales/${locale}.json contains letter-question-letter text that indicates unrecoverable mojibake`);
+  }
+
   const entries = localizedContent[locale] || [];
   if (entries.length !== expectedArticleCount) {
     fail(`localized-content.json locale "${locale}" has ${entries.length} entries; expected ${expectedArticleCount}`);
