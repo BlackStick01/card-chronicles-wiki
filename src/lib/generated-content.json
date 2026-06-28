@@ -2,8 +2,8 @@
   {
     "category": "guide",
     "slug": "card-chronicles-beginner-guide",
-    "title": "Master the Art of Card Chronicles: A Beginner's Ultimate Guide",
-    "description": "Discover the essentials of Card Chronicles and become a master player with our comprehensive beginner's guide.",
+    "title": "Master the Art of Card Chronicles: A Beginner",
+    "description": "Discover the essentials of Card Chronicles and become a master player with our comprehensive beginner",
     "date": "2026-06-28",
     "path": "/guide/beginner-guide"
   },
@@ -49,14 +49,6 @@
   },
   {
     "category": "cards",
-    "slug": "card-chronicles-best-cards",
-    "title": "Unveiling the Best Cards in the 2022 Panini Chronicles Collection",
-    "description": "Discover the top-performing cards from the 2022 Panini Chronicles and learn how to build your ultimate collection.",
-    "date": "2026-06-28",
-    "path": "/cards/best-cards"
-  },
-  {
-    "category": "cards",
     "slug": "card-chronicles-card-rolling",
     "title": "Card Chronicles: The Ultimate Guide to Card Rolling",
     "description": "Discover the art of card rolling with our comprehensive guide, including tips, tricks, and the latest from Crutch Cards.",
@@ -86,14 +78,6 @@
     "description": "Discover the best players and strategies for the Card Chronicles team in 2026. This comprehensive lineup guide is a must-read for any fan!",
     "date": "2026-06-28",
     "path": "/lineup/team"
-  },
-  {
-    "category": "upgrades",
-    "slug": "card-chronicles-ability-unlocks",
-    "title": "Unlocking the Power of Card Chronicles: A Deep Dive into Keep the Heroes Out! Ability Unlocks",
-    "description": "Discover the thrilling ability unlocks in Keep the Heroes Out! and enhance your gameplay with these card chronicles.",
-    "date": "2026-06-28",
-    "path": "/upgrades/ability-unlocks"
   },
   {
     "category": "upgrades",
@@ -138,26 +122,10 @@
   {
     "category": "ranks",
     "slug": "card-chronicles-ranks",
-    "title": "Mastering Card Chronicles Ranks: A Deep Dive into the Game's Mechanics",
+    "title": "Mastering Card Chronicles Ranks: A Deep Dive into the Game",
     "description": "Discover the intricacies of Card Chronicles ranks and how they impact your gameplay.",
     "date": "2026-06-28",
     "path": "/ranks/ranks"
-  },
-  {
-    "category": "system",
-    "slug": "card-chronicles-max-players",
-    "title": "Max Players in Card Chronicles: Finding the Sweet Spot",
-    "description": "Discover the optimal number of players for Card Chronicles and learn how to create the best gaming experience.",
-    "date": "2026-06-28",
-    "path": "/system/max-players"
-  },
-  {
-    "category": "system",
-    "slug": "card-chronicles-mobile",
-    "title": "Unraveling Mystery: The Chronicles of Crime Mobile App Review",
-    "description": "Discover the immersive world of the Chronicles of Crime mobile app, a perfect blend of mystery and technology.",
-    "date": "2026-06-28",
-    "path": "/system/mobile"
   },
   {
     "category": "system",

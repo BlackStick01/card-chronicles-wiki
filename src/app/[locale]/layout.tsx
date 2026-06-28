@@ -6,7 +6,7 @@ import { hasLocale } from "next-intl";
 import { SiteAds } from "@/components/ads/SiteAds";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
-import messages from "@/locales/en.json";
+import { getMessagesForLocale } from "@/lib/messages";
 import { absoluteUrl } from "@/lib/utils";
 import { SUPPORTED_LOCALES, getHomePath, isSupportedLocale } from "@/lib/content";
 
@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const safeLocale = isSupportedLocale(locale) ? locale : "en";
   const canonical = getHomePath(safeLocale);
+  const messages = getMessagesForLocale(safeLocale);
 
   return {
     title: messages.metadata.title,
@@ -51,13 +52,14 @@ export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   const safeLocale = isSupportedLocale(locale) ? locale : "en";
+  const messages = getMessagesForLocale(safeLocale);
   const intlMessages = await getMessages();
 
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: messages.site.name,
-    url: absoluteUrl(getHomePath(locale)),
+    url: absoluteUrl(getHomePath(safeLocale)),
     logo: absoluteUrl("/google-favicon.png"),
     image: absoluteUrl("/images/og-image.png"),
     sameAs: [
@@ -69,7 +71,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: messages.site.name,
-    url: absoluteUrl(getHomePath(locale)),
+    url: absoluteUrl(getHomePath(safeLocale)),
     description: messages.metadata.description,
     primaryImageOfPage: {
       "@type": "ImageObject",

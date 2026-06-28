@@ -20,7 +20,7 @@ import {
   isSupportedLocale,
   type ContentMeta,
 } from "@/lib/content";
-import messages from "@/locales/en.json";
+import { getMessagesForLocale } from "@/lib/messages";
 import { absoluteUrl, titleCaseSlug } from "@/lib/utils";
 
 type Props = {
@@ -60,6 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const resolved = resolveSlug(slug);
   const safeLocale = isSupportedLocale(locale) ? locale : DEFAULT_LOCALE;
+  const messages = getMessagesForLocale(safeLocale);
 
   if (!resolved) return {};
 
@@ -67,8 +68,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const categoryMeta = getCategoryMeta(resolved.category);
     if (!categoryMeta) return {};
     const canonical = getCategoryPath(resolved.category, safeLocale);
+    const categoryLabel = messages.nav[resolved.category as keyof typeof messages.nav] || categoryMeta.label;
     return {
-      title: `${categoryMeta.label} - Card Chronicles Wiki`,
+      title: `${categoryLabel} - Card Chronicles Wiki`,
       description: categoryMeta.description,
       alternates: {
         canonical: absoluteUrl(canonical),
@@ -104,13 +106,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function CategoryPage({ category, locale }: { category: string; locale: string }) {
   const categoryMeta = getCategoryMeta(category);
+  const messages = getMessagesForLocale(locale);
   const articles = getContentByCategory(category, locale);
   if (!categoryMeta) notFound();
+  const categoryLabel = messages.nav[category as keyof typeof messages.nav] || categoryMeta.label;
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${categoryMeta.label} articles`,
+    name: `${categoryLabel} articles`,
     itemListElement: articles.map((article, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -126,7 +130,7 @@ function CategoryPage({ category, locale }: { category: string; locale: string }
         <section>
           <div className="rounded-lg border border-slate-800 bg-slate-950/76 p-6 shadow-xl shadow-black/20">
             <p className="text-sm font-black uppercase tracking-[0.2em] text-cyan-200">{messages.site.shortName}</p>
-            <h1 className="mt-4 text-4xl font-black text-slate-50">{categoryMeta.label}</h1>
+            <h1 className="mt-4 text-4xl font-black text-slate-50">{categoryLabel}</h1>
             <p className="mt-4 max-w-3xl text-base leading-8 text-slate-400">{categoryMeta.description}</p>
           </div>
           <div className="mt-6 grid gap-4">
@@ -153,8 +157,9 @@ async function ArticlePage({ article, locale }: { article: ContentMeta; locale: 
   const meta = getContentMeta(article.category, article.slug, locale);
   const mod = await getContentModule(article.category, article.slug, locale);
   if (!meta || !mod) notFound();
+  const messages = getMessagesForLocale(locale);
   const Content = mod.default;
-  const categoryLabel = getCategoryMeta(article.category)?.label || titleCaseSlug(article.category);
+  const categoryLabel = messages.nav[article.category as keyof typeof messages.nav] || getCategoryMeta(article.category)?.label || titleCaseSlug(article.category);
   const canonicalPath = getArticlePath(meta, locale);
   const categoryPath = getCategoryPath(article.category, locale);
 

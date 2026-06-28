@@ -1,10 +1,12 @@
 import HomePageClient from "./[locale]/HomePageClient";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { SiteAds } from "@/components/ads/SiteAds";
-import messages from "@/locales/en.json";
+import { getLocalizedContent } from "@/lib/content";
+import { getMessagesForLocale } from "@/lib/messages";
 import { absoluteUrl } from "@/lib/utils";
 
 export default function RootPage() {
+  const messages = getMessagesForLocale("en");
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -25,7 +27,7 @@ export default function RootPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
       <SiteHeader />
       <SiteAds />
-      <HomePageClient />
+      <HomePageClient locale="en" messages={messages} content={getLocalizedContent("en")} />
       <SiteFooter />
     </div>
   );

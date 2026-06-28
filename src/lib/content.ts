@@ -29,7 +29,7 @@ export const allContent = generatedContent as ContentMeta[];
 const contentByLocale = localizedContent as Record<SupportedLocale, ContentMeta[]>;
 
 export const DEFAULT_LOCALE = "en";
-export const SUPPORTED_LOCALES = ["en"] as const;
+export const SUPPORTED_LOCALES = ["en", "de", "es", "pt"] as const;
 export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
 
 export function isSupportedLocale(locale: string): locale is SupportedLocale {
@@ -71,6 +71,17 @@ export function getAllContentPaths() {
     slug: item.slug,
     path: getArticlePath(item),
   }));
+}
+
+export function getAllLocalizedContentPaths() {
+  return SUPPORTED_LOCALES.flatMap((locale) =>
+    getLocalizedContent(locale).map((item) => ({
+      locale,
+      category: item.category,
+      slug: item.slug,
+      path: getArticlePath(item, locale),
+    })),
+  );
 }
 
 export function getLocalizedContent(locale = DEFAULT_LOCALE) {

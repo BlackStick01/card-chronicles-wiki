@@ -2,23 +2,20 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { ArrowRight, BadgeCheck, BookOpen, CirclePlay, Gamepad2, Layers3, Sparkles, Star, Trophy, Zap } from "lucide-react";
 import { ResponsiveLeaderboardAd } from "@/components/ads/ResponsiveLeaderboardAd";
 import { NAVIGATION_CONFIG } from "@/config/navigation";
-import generatedContent from "@/lib/generated-content.json";
-import messages from "@/locales/en.json";
+import type { ContentMeta } from "@/lib/content";
+import type { SiteMessages } from "@/lib/messages";
 import { cn } from "@/lib/utils";
 
-type HomeModule = (typeof messages.home.explore.modules)[number];
-type ContentMeta = (typeof generatedContent)[number];
+type HomeModule = SiteMessages["home"]["explore"]["modules"][number];
 
 const OFFICIAL_ROBLOX_URL = "https://www.roblox.com/games/114758508835875/Card-Chronicles";
 const iconByIndex = [Sparkles, BookOpen, Layers3, Star, Gamepad2, Zap, BadgeCheck, Trophy];
 
-function getLocalePrefix(pathname: string) {
-  const locale = pathname.split("/").filter(Boolean)[0];
-  return locale === "en" ? "" : "";
+function getLocalePrefix(locale: string) {
+  return locale === "en" ? "" : `/${locale}`;
 }
 
 function articleHref(item: Pick<ContentMeta, "category" | "slug">, prefix: string) {
@@ -69,13 +66,12 @@ function ModuleHighlights({ module }: { module: HomeModule }) {
   );
 }
 
-export default function HomePageClient() {
-  const pathname = usePathname();
-  const prefix = getLocalePrefix(pathname);
+export default function HomePageClient({ locale, messages, content }: { locale: string; messages: SiteMessages; content: ContentMeta[] }) {
+  const prefix = getLocalePrefix(locale);
   const href = (path: string) => `${prefix}${path}`;
-  const latest = [...generatedContent].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8);
-  const trending = generatedContent.filter((item) =>
-    ["card-chronicles-beginner-guide", "card-chronicles-codes", "card-chronicles-best-cards", "card-chronicles-lineup"].includes(item.slug),
+  const latest = [...content].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8);
+  const trending = content.filter((item) =>
+    ["card-chronicles-beginner-guide", "card-chronicles-codes", "card-chronicles-card-rolling", "card-chronicles-best-lineup"].includes(item.slug),
   );
 
   return (
@@ -145,7 +141,7 @@ export default function HomePageClient() {
             <div className="sticky top-24 rounded-lg border border-slate-800 bg-slate-950/76 p-4 shadow-xl shadow-black/30">
               <div className="flex items-center gap-2 text-sm font-black uppercase tracking-wide text-amber-200">
                 <BookOpen className="h-4 w-4" />
-                Wiki Navigation
+                {messages.shared.wikiNavigation}
               </div>
               <div className="mt-4 grid gap-2">
                 {Object.values(NAVIGATION_CONFIG).map((item) => (
@@ -166,7 +162,7 @@ export default function HomePageClient() {
                   <p className="mt-3 text-base leading-7 text-slate-400">{messages.home.recent.description}</p>
                 </div>
                 <Link href={href("/guide")} className="inline-flex items-center gap-2 text-sm font-black text-amber-200 hover:text-amber-100">
-                  Browse All Guides <ArrowRight className="h-4 w-4" />
+                  {messages.shared.allArticles} <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
               <div className="mt-8 grid gap-4 md:grid-cols-2">
@@ -255,7 +251,7 @@ export default function HomePageClient() {
                   </div>
                   <ModuleHighlights module={module} />
                   <Link href={href(module.href)} className="mt-5 inline-flex items-center gap-2 text-sm font-black text-amber-200 hover:text-amber-100">
-                    Read more <ArrowRight className="h-4 w-4" />
+                    {messages.shared.readMore} <ArrowRight className="h-4 w-4" />
                   </Link>
                 </article>
               );
@@ -268,7 +264,7 @@ export default function HomePageClient() {
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div>
             <h2 className="text-3xl font-black text-slate-50">Card Chronicles FAQ</h2>
-            <p className="mt-4 text-base leading-8 text-slate-400">Quick answers for the questions players usually ask before their first wave.</p>
+            <p className="mt-4 text-base leading-8 text-slate-400">{messages.home.recent.description}</p>
           </div>
           <div className="grid gap-4">
             {messages.home.faq.map((item) => (

@@ -2,14 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { BookOpen, Gamepad2, Shield, Sparkles } from "lucide-react";
 import { NAVIGATION_CONFIG } from "@/config/navigation";
-import messages from "@/locales/en.json";
 import { getArticlePath, getLatestContent, localizePath } from "@/lib/content";
+import { getMessagesForLocale } from "@/lib/messages";
 import { LanguageSwitcher } from "./language-switcher";
 
 const OFFICIAL_ROBLOX_URL = "https://www.roblox.com/games/114758508835875/Card-Chronicles";
 const OFFICIAL_GROUP_URL = "https://www.roblox.com/communities/35338731/Chronicle-Entertainment";
 
 export function SiteHeader({ locale = "en" }: { locale?: string }) {
+  const messages = getMessagesForLocale(locale);
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-[#090b12]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-4 py-3 sm:px-6 lg:px-8">
@@ -30,12 +31,12 @@ export function SiteHeader({ locale = "en" }: { locale?: string }) {
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
           {Object.values(NAVIGATION_CONFIG).map((item) => (
             <Link key={item.key} href={localizePath(item.href, locale)} className="rounded-md px-3 py-2 text-sm font-semibold text-slate-300 transition hover:bg-amber-400/10 hover:text-amber-100">
-              {item.label}
+              {messages.nav[item.key as keyof typeof messages.nav] || item.label}
             </Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <LanguageSwitcher />
+          <LanguageSwitcher locale={locale} />
           <a href={OFFICIAL_ROBLOX_URL} className="rounded-md bg-amber-400 px-4 py-2 text-sm font-black text-slate-950 shadow-lg shadow-amber-950/30 transition hover:bg-amber-300" target="_blank" rel="noreferrer">
             Roblox
           </a>
@@ -46,6 +47,7 @@ export function SiteHeader({ locale = "en" }: { locale?: string }) {
 }
 
 export function SiteFooter({ locale = "en" }: { locale?: string }) {
+  const messages = getMessagesForLocale(locale);
   return (
     <footer className="border-t border-slate-800 bg-[#080a10]">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.8fr] lg:px-8">
@@ -76,6 +78,7 @@ export function SiteFooter({ locale = "en" }: { locale?: string }) {
 }
 
 export function WikiSidebar({ locale = "en" }: { locale?: string }) {
+  const messages = getMessagesForLocale(locale);
   const latest = getLatestContent(6, locale);
   return (
     <aside className="space-y-5">
@@ -87,7 +90,7 @@ export function WikiSidebar({ locale = "en" }: { locale?: string }) {
         <div className="mt-4 grid gap-2">
           {Object.values(NAVIGATION_CONFIG).map((item) => (
             <Link key={item.key} href={localizePath(item.href, locale)} className="rounded-md border border-slate-800 bg-slate-900/55 px-3 py-2 text-sm font-semibold text-slate-300 hover:border-amber-400/50 hover:text-amber-100">
-              {item.label}
+              {messages.nav[item.key as keyof typeof messages.nav] || item.label}
             </Link>
           ))}
         </div>
@@ -112,7 +115,7 @@ export function WikiSidebar({ locale = "en" }: { locale?: string }) {
       <div className="rounded-lg border border-slate-800 bg-slate-950/76 p-5">
         <div className="flex items-center gap-2 text-sm font-black uppercase tracking-wide text-amber-200">
           <Gamepad2 className="h-4 w-4" />
-          Latest Articles
+          {messages.shared.latestArticles}
         </div>
         <div className="mt-4 space-y-3">
           {latest.map((item) => (

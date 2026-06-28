@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { CONTENT_TYPES } from "@/config/navigation";
-import { SUPPORTED_LOCALES, getAllContentPaths, getCategoryPath, getHomePath } from "@/lib/content";
+import { SUPPORTED_LOCALES, getAllLocalizedContentPaths, getCategoryPath, getHomePath } from "@/lib/content";
 import { absoluteUrl } from "@/lib/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -10,10 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticSlugs.map((slug) => `${getHomePath(locale).replace(/\/$/, "")}/${slug}`),
     ...CONTENT_TYPES.map((category) => getCategoryPath(category, locale)),
   ]);
-  const englishContentPaths = getAllContentPaths().map((item) => item.path);
-  const articlePaths = SUPPORTED_LOCALES.flatMap((locale) =>
-    englishContentPaths.map((path) => (locale === "en" ? path : `/${locale}${path}`)),
-  );
+  const articlePaths = getAllLocalizedContentPaths().map((item) => item.path);
 
   return [
     ...[...new Set([...staticPaths, ...articlePaths])].map((path) => ({

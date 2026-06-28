@@ -3,8 +3,8 @@
     {
       "category": "guide",
       "slug": "card-chronicles-beginner-guide",
-      "title": "Master the Art of Card Chronicles: A Beginner's Ultimate Guide",
-      "description": "Discover the essentials of Card Chronicles and become a master player with our comprehensive beginner's guide.",
+      "title": "Master the Art of Card Chronicles: A Beginner",
+      "description": "Discover the essentials of Card Chronicles and become a master player with our comprehensive beginner",
       "date": "2026-06-28",
       "path": "/guide/beginner-guide"
     },
@@ -50,14 +50,6 @@
     },
     {
       "category": "cards",
-      "slug": "card-chronicles-best-cards",
-      "title": "Unveiling the Best Cards in the 2022 Panini Chronicles Collection",
-      "description": "Discover the top-performing cards from the 2022 Panini Chronicles and learn how to build your ultimate collection.",
-      "date": "2026-06-28",
-      "path": "/cards/best-cards"
-    },
-    {
-      "category": "cards",
       "slug": "card-chronicles-card-rolling",
       "title": "Card Chronicles: The Ultimate Guide to Card Rolling",
       "description": "Discover the art of card rolling with our comprehensive guide, including tips, tricks, and the latest from Crutch Cards.",
@@ -87,14 +79,6 @@
       "description": "Discover the best players and strategies for the Card Chronicles team in 2026. This comprehensive lineup guide is a must-read for any fan!",
       "date": "2026-06-28",
       "path": "/lineup/team"
-    },
-    {
-      "category": "upgrades",
-      "slug": "card-chronicles-ability-unlocks",
-      "title": "Unlocking the Power of Card Chronicles: A Deep Dive into Keep the Heroes Out! Ability Unlocks",
-      "description": "Discover the thrilling ability unlocks in Keep the Heroes Out! and enhance your gameplay with these card chronicles.",
-      "date": "2026-06-28",
-      "path": "/upgrades/ability-unlocks"
     },
     {
       "category": "upgrades",
@@ -139,26 +123,10 @@
     {
       "category": "ranks",
       "slug": "card-chronicles-ranks",
-      "title": "Mastering Card Chronicles Ranks: A Deep Dive into the Game's Mechanics",
+      "title": "Mastering Card Chronicles Ranks: A Deep Dive into the Game",
       "description": "Discover the intricacies of Card Chronicles ranks and how they impact your gameplay.",
       "date": "2026-06-28",
       "path": "/ranks/ranks"
-    },
-    {
-      "category": "system",
-      "slug": "card-chronicles-max-players",
-      "title": "Max Players in Card Chronicles: Finding the Sweet Spot",
-      "description": "Discover the optimal number of players for Card Chronicles and learn how to create the best gaming experience.",
-      "date": "2026-06-28",
-      "path": "/system/max-players"
-    },
-    {
-      "category": "system",
-      "slug": "card-chronicles-mobile",
-      "title": "Unraveling Mystery: The Chronicles of Crime Mobile App Review",
-      "description": "Discover the immersive world of the Chronicles of Crime mobile app, a perfect blend of mystery and technology.",
-      "date": "2026-06-28",
-      "path": "/system/mobile"
     },
     {
       "category": "system",
@@ -183,6 +151,468 @@
       "description": "Discover the latest Card Chronicles Roblox codes for June 2026 and boost your gaming experience with free rewards and in-game bonuses.",
       "date": "2026-06-28",
       "path": "/system/roblox"
+    }
+  ],
+  "de": [
+    {
+      "category": "guide",
+      "slug": "card-chronicles-beginner-guide",
+      "title": "Die Kunst des Card Chronicles meistern: Das ultimative Einführungshandbuch",
+      "description": "Entdecke die Grundlagen von Card Chronicles und werde ein Meisterspieler mit unserem umfassenden Einführungshandbuch.",
+      "date": "2026-06-28",
+      "path": "/de/guide/beginner-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-guide",
+      "title": "Meister des Card Chronicles: ultimative Anleitung zu Codes und Belohnungen",
+      "description": "Lösen Sie die Geheimnisse von Card Chronicles mit unserem umfassenden Leitfaden zu Codes, Belohnungen und Strategien für den Erfolg.",
+      "date": "2026-06-28",
+      "path": "/de/guide/guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-how-to-play",
+      "title": "Meister des Kunst der Karte-Chroniken: Ein umfassender Leitfaden zum Spielen",
+      "description": "Entdecken Sie, wie Sie Card Chronicles, ein fantasyartiges Trick-Verteilungsspiel, mit unserer tiefenführigen Anleitung spielen. Lernen Sie Strategien, Kartengeschichten und vieles mehr!",
+      "date": "2026-06-28",
+      "path": "/de/guide/how-to-play"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-roblox-guide",
+      "title": "Die Macht freisetzen: Ein umfassender Roblox Card Chronicles Leitfaden",
+      "description": "Entdecke die Geheimnisse, um Card Chronicles Roblox zu meistern, mit unserem ultimativen Leitfaden. Erhalte die neuesten Codes, Tipps und Strategien, um dein Spiel zu verbessern.",
+      "date": "2026-06-28",
+      "path": "/de/guide/roblox-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-tips",
+      "title": "Meister der Karten-Chroniken: Essentielle Tipps für den Sieg",
+      "description": "Entdecke die Geheimnisse der Karten-Chroniken mit unseren Top-Tipps und Strategien, um in jedem Match zu siegen.",
+      "date": "2026-06-28",
+      "path": "/de/guide/tips"
+    },
+    {
+      "category": "codes",
+      "slug": "card-chronicles-codes",
+      "title": "Die Macht Freisetzen: Das ultimative Handbuch zu Card Chronicles Codes",
+      "description": "Entdecke die neuesten Card Chronicles Codes für Roblox und verbessere dein Gameplay mit kostenlosen Belohnungen und speziellen Items!",
+      "date": "2026-06-28",
+      "path": "/de/codes/codes"
+    },
+    {
+      "category": "cards",
+      "slug": "card-chronicles-card-rolling",
+      "title": "Kartenrollen-Chroniken: Das ultimative Handbuch zum Kartenrollen",
+      "description": "Entdecke die Kunst des Kartenrollens mit unserem umfassenden Leitfaden, einschließlich Tipps, Tricks und den neuesten Innovationen von Crutch Cards.",
+      "date": "2026-06-28",
+      "path": "/de/cards/card-rolling"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-best-lineup",
+      "title": "Meister des Bauens der ultimativen Bestbesetzung in Card Chronicles",
+      "description": "Entdecke die besten Auswahlmöglichkeiten und Experten-Tipps, um die beste Besetzung in Card Chronicles für ein überlegenes Spielvergnügen zu erstellen.",
+      "date": "2026-06-28",
+      "path": "/de/lineup/best-lineup"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-card-team",
+      "title": "Meisterung der Card Chronicles Kartenmannschaft: Ihr ultimativer Leitfaden",
+      "description": "Entdecken Sie die Geheimnisse der Card Chronicles Kartenmannschaft und werden Sie ein Profi im Aufbau Ihres Traumteams.",
+      "date": "2026-06-28",
+      "path": "/de/lineup/card-team"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-team",
+      "title": "Das ultimative Team-Lineup-Guide für die Card Chronicles 2026",
+      "description": "Entdecke die besten Spieler und Strategien für das Card Chronicles Team in 2026. Dieses umfassende Lineup-Guide ist ein Muss für jeden Fan!",
+      "date": "2026-06-28",
+      "path": "/de/lineup/team"
+    },
+    {
+      "category": "upgrades",
+      "slug": "card-chronicles-upgrade-guide",
+      "title": "Meister der Kunst der Card Chronicles-Updates: Ein umfassender Leitfaden",
+      "description": "Entdecke die Geheimnisse, um deine Card Chronicles-Karte zu ihrem vollen Potenzial zu bringen. Erfahre, welche Fähigkeiten du zuerst aktualisieren solltest, um die beste Leistung zu erzielen.",
+      "date": "2026-06-28",
+      "path": "/de/upgrades/upgrade-guide"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-endless-waves",
+      "title": "Meisterung der Card Chronicles Unendlichen Wellen: Ein umfassender Leitfaden",
+      "description": "Entdecke grundlegende Strategien und Tipps, um die Card Chronicles Unendlichen Wellen zu besiegen. Trete unserer Gemeinschaft bei, um Expertentipps und Spielererfahrungen zu erhalten.",
+      "date": "2026-06-28",
+      "path": "/de/waves/endless-waves"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-waves",
+      "title": "Revolutionierend Eternia: Die Card Chronicles Wellen enthüllt",
+      "description": "Entdecken Sie die epische Geschichte der Card Chronicles Wellen und wie sie den Masters of the Universe-Universum verändern.",
+      "date": "2026-06-28",
+      "path": "/de/waves/waves"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-guide",
+      "title": "Meisterung der Card Chronicles Rangführer: Die Kraft der Ränge enthüllen",
+      "description": "Löse die Geheimnisse der Ränge und Kraftstufen in Card Chronicles, um das ultimative Deck zu erstellen.",
+      "date": "2026-06-28",
+      "path": "/de/ranks/rank-guide"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-up",
+      "title": "Maximale Stufe Meisterschaft: Das ultimative Handbuch für den Rangaufstieg in Card Chronicles",
+      "description": "Entdecke die Geheimnisse, um deine maximale Stufe Karten in Card Chronicles zu ranken. Erhalte Experten-Tipps und Tricks, um neues Potenzial freizuschalten!",
+      "date": "2026-06-28",
+      "path": "/de/ranks/rank-up"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-ranks",
+      "title": "Meisterung von Card Chronicles Rängen: Ein tiefer Einblick in die Spielmechaniken",
+      "description": "Entdecken Sie die Komplexitäten der Ränge in Card Chronicles und wie sie Ihr Spiel beeinflussen.",
+      "date": "2026-06-28",
+      "path": "/de/ranks/ranks"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-pc",
+      "title": "Card Chronicles PC: Ein strategisches Deckbaus-Abenteuer erwartet",
+      "description": "Entdecke die Fusion von RPG und Deckbaus in Card Chronicles PC, einem Spiel, das epische Abenteuer und strategische Kartenschlachten verspricht. Mehr erfahren!",
+      "date": "2026-06-28",
+      "path": "/de/system/pc"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-private-server",
+      "title": "Entdecken Sie das Abenteuer des Card Chronicles Private Servers",
+      "description": "Gehen Sie auf eine epische Reise im Card Chronicles Private Server. Ermitteln Sie, warum Spieler von ihm begeistert sind und wie Sie sich der Freude anschließen können!",
+      "date": "2026-06-28",
+      "path": "/de/system/private-server"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-roblox",
+      "title": "Deine Reise in die Card Chronicles Roblox mit exklusiven Codes entsperren",
+      "description": "Entdecke die neuesten Card Chronicles Roblox Codes für Juni 2026 und verbessere dein Spielvergnügen mit kostenlosen Belohnungen und In-Game-Bonussen.",
+      "date": "2026-06-28",
+      "path": "/de/system/roblox"
+    }
+  ],
+  "es": [
+    {
+      "category": "guide",
+      "slug": "card-chronicles-beginner-guide",
+      "title": "Maestro el Arte de Card Chronicles: Guía Definitiva para Principiantes",
+      "description": "Descubre los fundamentos de Card Chronicles y conviértete en un jugador maestro con nuestra guía exhaustiva para principiantes.",
+      "date": "2026-06-28",
+      "path": "/es/guide/beginner-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-guide",
+      "title": "Maestro del Arte de Card Chronicles: Guía Definitiva de Códigos y Recompensas",
+      "description": "Descubre los secretos de Card Chronicles con nuestra guía completa sobre códigos, recompensas y estrategias para el éxito.",
+      "date": "2026-06-28",
+      "path": "/es/guide/guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-how-to-play",
+      "title": "Maestro del Arte de Card Chronicles: Guía Completa para Jugar",
+      "description": "Descubre cómo jugar a Card Chronicles, un juego de toma de cartas de fantasía, con nuestra guía detallada. Aprende estrategias, mecánicas de cartas y mucho más!",
+      "date": "2026-06-28",
+      "path": "/es/guide/how-to-play"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-roblox-guide",
+      "title": "Desbloqueando el Poder: Guía Completa de Card Chronicles en Roblox",
+      "description": "Descubre los secretos para dominar Card Chronicles en Roblox con nuestra guía definitiva. Obtén los últimos códigos, consejos y estrategias para mejorar tu juego.",
+      "date": "2026-06-28",
+      "path": "/es/guide/roblox-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-tips",
+      "title": "Maestrando los Crónicas de las Cartas: Consejos Esenciales para la Victoria",
+      "description": "Descubre los secretos de las Crónicas de las Cartas con nuestros mejores consejos y estrategias para asegurar la victoria en cada partida.",
+      "date": "2026-06-28",
+      "path": "/es/guide/tips"
+    },
+    {
+      "category": "codes",
+      "slug": "card-chronicles-codes",
+      "title": "Desbloquea el Poder: La Guía Definitiva de Códigos de Card Chronicles",
+      "description": "Descubre los últimos códigos de Card Chronicles para Roblox y mejora tu experiencia de juego con recompensas gratuitas y artículos especiales!",
+      "date": "2026-06-28",
+      "path": "/es/codes/codes"
+    },
+    {
+      "category": "cards",
+      "slug": "card-chronicles-card-rolling",
+      "title": "Crónicas de las Cartas: La Guía Definitiva para el enrollado de Cartas",
+      "description": "Descubre el arte del enrollado de cartas con nuestra guía exhaustiva, incluyendo consejos, trucos y las últimas innovaciones de Crutch Cards.",
+      "date": "2026-06-28",
+      "path": "/es/cards/card-rolling"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-best-lineup",
+      "title": "Maestro el Arte de Construir la Mejor Formación en Card Chronicles",
+      "description": "Descubre las mejores selecciones y consejos de expertos para crear la mejor formación en Card Chronicles para una experiencia de juego inmejorable.",
+      "date": "2026-06-28",
+      "path": "/es/lineup/best-lineup"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-card-team",
+      "title": "Dominando el Equipo de Cartas de Card Chronicles: Tu Guía Definitiva",
+      "description": "Descubre los entresijos del equipo de cartas de Card Chronicles y conviértete en un profesional en la construcción de tu equipo de sueños.",
+      "date": "2026-06-28",
+      "path": "/es/lineup/card-team"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-team",
+      "title": "La Guía Definitiva de Formaciones del Equipo de Card Chronicles para 2026",
+      "description": "Descubre los mejores jugadores y estrategias para el equipo de Card Chronicles en 2026. Esta guía de formaciones completa es un must-read para cualquier fan!",
+      "date": "2026-06-28",
+      "path": "/es/lineup/team"
+    },
+    {
+      "category": "upgrades",
+      "slug": "card-chronicles-upgrade-guide",
+      "title": "Maestrando el Arte de las Mejoras de Card Chronicles: Una Guía Completa",
+      "description": "Descubre los secretos para mejorar tu carta de Card Chronicles al máximo potencial. Aprende cuáles habilidades debes mejorar primero para obtener un rendimiento óptimo.",
+      "date": "2026-06-28",
+      "path": "/es/upgrades/upgrade-guide"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-endless-waves",
+      "title": "Maestrando las Olas Infinitas de Card Chronicles: Una Guía Completa",
+      "description": "Descubre estrategias y consejos esenciales para conquistar las Olas Infinitas de Card Chronicles. Únete a nuestra comunidad para obtener consejos de expertos y experiencias de jugadores.",
+      "date": "2026-06-28",
+      "path": "/es/waves/endless-waves"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-waves",
+      "title": "Revolucionando Eternia: Desvelados las Olas de las Crónicas de las Cartas",
+      "description": "Descubre la épica historia de las Olas de las Crónicas de las Cartas y cómo están dando forma al universo de los Maestros del Universo.",
+      "date": "2026-06-28",
+      "path": "/es/waves/waves"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-guide",
+      "title": "Manual de Clasificación de Card Chronicles: Desvelando el Poder de los Rangos",
+      "description": "Descubre los secretos de los rangos y niveles de poder de Card Chronicles para construir el mazo definitivo.",
+      "date": "2026-06-28",
+      "path": "/es/ranks/rank-guide"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-up",
+      "title": "Maestría en Nivel Máximo: La Guía Definitiva para Subir de Rango en Card Chronicles",
+      "description": "Descubre los secretos para subir de rango tus cartas de nivel máximo en Card Chronicles. Obtén consejos y trucos expertos para desbloquear nuevos potenciales!",
+      "date": "2026-06-28",
+      "path": "/es/ranks/rank-up"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-ranks",
+      "title": "Maestrando los Rangos de Card Chronicles: Un Análisis Profundo de los Mecánicos del Juego",
+      "description": "Descubre las complejidades de los rangos de Card Chronicles y cómo afectan tu juego.",
+      "date": "2026-06-28",
+      "path": "/es/ranks/ranks"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-pc",
+      "title": "Card Chronicles PC: Una Aventura Estratégica de Construcción de Mazos",
+      "description": "Descubre la fusión de RPG y construcción de mazos en Card Chronicles PC, un juego que promete aventuras épicas y batallas de cartas estratégicas. Descubre más!",
+      "date": "2026-06-28",
+      "path": "/es/system/pc"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-private-server",
+      "title": "Desbloquear la Aventura del Servidor Privado de Card Chronicles",
+      "description": "Embarca en una epopeya en el Servidor Privado de Card Chronicles. Descubre por qué los jugadores están hablando sobre él y cómo unirte a la diversión!",
+      "date": "2026-06-28",
+      "path": "/es/system/private-server"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-roblox",
+      "title": "Descubre tus códigos exclusivos para el viaje en Card Chronicles en Roblox",
+      "description": "Encuentra los códigos más recientes de Card Chronicles para junio de 2026 y mejora tu experiencia de juego con recompensas gratuitas y bonificaciones en juego.",
+      "date": "2026-06-28",
+      "path": "/es/system/roblox"
+    }
+  ],
+  "pt": [
+    {
+      "category": "guide",
+      "slug": "card-chronicles-beginner-guide",
+      "title": "Mestre a Arte dos Crônicas das Cartas: Guia Ultimate para Iniciantes",
+      "description": "Descubra os fundamentos das Crônicas das Cartas e torne-se um jogador mestre com nosso guia abrangente para iniciantes.",
+      "date": "2026-06-28",
+      "path": "/pt/guide/beginner-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-guide",
+      "title": "Domine a Arte de Card Chronicles: Guia Ultimate para Códigos e Recompensas",
+      "description": "Descubra os segredos de Card Chronicles com nossa guia completa sobre códigos, recompensas e estratégias para o sucesso.",
+      "date": "2026-06-28",
+      "path": "/pt/guide/guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-how-to-play",
+      "title": "Domine a Arte dos Crônicas das Cartas: Guia Completo para Jogar",
+      "description": "Descubra como jogar Crônicas das Cartas, um jogo de cartas de estratégia fantástica, com nosso guia detalhado. Aprenda estratégias, mecânica de cartas e muito mais!",
+      "date": "2026-06-28",
+      "path": "/pt/guide/how-to-play"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-roblox-guide",
+      "title": "Desbloqueando o Poder: Guia Completo de Card Chronicles Roblox",
+      "description": "Descubra os segredos para dominar Card Chronicles Roblox com nossa guia ultimate. Obtenha os últimos códigos, dicas e estratégias para melhorar seu jogo.",
+      "date": "2026-06-28",
+      "path": "/pt/guide/roblox-guide"
+    },
+    {
+      "category": "guide",
+      "slug": "card-chronicles-tips",
+      "title": "Mestreando os Crônicos das Cartas: Dicas Essenciais para Ganhar",
+      "description": "Descubra os segredos dos Crônicos das Cartas com nossas melhores dicas e estratégias para garantir a vitória em cada partida.",
+      "date": "2026-06-28",
+      "path": "/pt/guide/tips"
+    },
+    {
+      "category": "codes",
+      "slug": "card-chronicles-codes",
+      "title": "Desbloqueie o Poder: Guia Ultimate para Códigos de Card Chronicles",
+      "description": "Descubra os últimos códigos de Card Chronicles para Roblox e melhore seu jogo com recompensas gratuitas e itens especiais!",
+      "date": "2026-06-28",
+      "path": "/pt/codes/codes"
+    },
+    {
+      "category": "cards",
+      "slug": "card-chronicles-card-rolling",
+      "title": "Card Chronicles: Guia Definitivo para Rolling de Cartas",
+      "description": "Descubra a arte do rolling de cartas com nossa guia completa, incluindo dicas, truques e as últimas novidades da Crutch Cards.",
+      "date": "2026-06-28",
+      "path": "/pt/cards/card-rolling"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-best-lineup",
+      "title": "Domine a Arte de Construir a Melhor Formação do Card Chronicles",
+      "description": "Descubra as escolhas de topo e dicas de especialistas para criar a melhor formação no Card Chronicles para uma experiência de jogo inabalável.",
+      "date": "2026-06-28",
+      "path": "/pt/lineup/best-lineup"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-card-team",
+      "title": "Domineando a Equipe de Cartas dos Card Chronicles: Sua Guia Ultimate",
+      "description": "Descubra os detalhes da equipe de cartas dos Card Chronicles e torne-se um profissional ao construir sua equipe de sonho.",
+      "date": "2026-06-28",
+      "path": "/pt/lineup/card-team"
+    },
+    {
+      "category": "lineup",
+      "slug": "card-chronicles-team",
+      "title": "Guia Ultimate de Elenco da Chronica dos Cartões para 2026",
+      "description": "Descubra os melhores jogadores e estratégias para a equipe Chronica dos Cartões em 2026. Este guia completo de elenco é um must-read para qualquer fã!",
+      "date": "2026-06-28",
+      "path": "/pt/lineup/team"
+    },
+    {
+      "category": "upgrades",
+      "slug": "card-chronicles-upgrade-guide",
+      "title": "Mastigando a Arte de Atualizações de Card Chronicles: Uma Guia Completa",
+      "description": "Descubra os segredos para atualizar seu cartão de Card Chronicles ao seu potencial máximo. Descubra quais habilidades atualizar primeiro para um desempenho otimizado.",
+      "date": "2026-06-28",
+      "path": "/pt/upgrades/upgrade-guide"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-endless-waves",
+      "title": "Domineando as Ondas Infinitas dos Card Chronicles: Guia Completo",
+      "description": "Descubra estratégias essenciais e dicas para dominar as Ondas Infinitas dos Card Chronicles. Junte-se à nossa comunidade para obter conselhos especializados e experiências de jogadores.",
+      "date": "2026-06-28",
+      "path": "/pt/waves/endless-waves"
+    },
+    {
+      "category": "waves",
+      "slug": "card-chronicles-waves",
+      "title": "Revolutionizando Eternia: As Ondas das Crônicas das Cartas são Descobertas",
+      "description": "Descubra a épica história das Ondas das Crônicas das Cartas e como elas estão moldando o universo dos Mestres do Universo.",
+      "date": "2026-06-28",
+      "path": "/pt/waves/waves"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-guide",
+      "title": "Guia de Nível do Card Chronicles: Revelando o Poder dos Níveis",
+      "description": "Descubra os segredos dos níveis e níveis de poder do Card Chronicles para construir o deck ultimate.",
+      "date": "2026-06-28",
+      "path": "/pt/ranks/rank-guide"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-rank-up",
+      "title": "Mestre do Nível Máximo: Guia Ultimate para Avançar no Rank do Card Chronicles",
+      "description": "Descubra os segredos para avançar seu cartão de nível máximo no Card Chronicles. Obtenha dicas e truques de especialistas para liberar novo potencial!",
+      "date": "2026-06-28",
+      "path": "/pt/ranks/rank-up"
+    },
+    {
+      "category": "ranks",
+      "slug": "card-chronicles-ranks",
+      "title": "Domínio dos Ranks de Card Chronicles: Uma Profunda Análise das Mecânicas do Jogo",
+      "description": "Descubra as complexidades dos ranks de Card Chronicles e como eles afetam seu jogo.",
+      "date": "2026-06-28",
+      "path": "/pt/ranks/ranks"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-pc",
+      "title": "Card Chronicles PC: Uma Aventura Estratégica de Montagem de Baralho",
+      "description": "Descubra a fusão de RPG e montagem de baralho em Card Chronicles PC, um jogo que promete aventuras épicas e batalhas de cartas estratégicas. Saiba mais!",
+      "date": "2026-06-28",
+      "path": "/pt/system/pc"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-private-server",
+      "title": "Descubra a Aventura do Servidor Privado de Card Chronicles",
+      "description": "Embark on an epic journey in Card Chronicles Private Server. Find out why players are buzzing about it and how to join in the fun!",
+      "date": "2026-06-28",
+      "path": "/pt/system/private-server"
+    },
+    {
+      "category": "system",
+      "slug": "card-chronicles-roblox",
+      "title": "Desbloqueie Sua Jornada em Card Chronicles Roblox com Códigos Exclusivos",
+      "description": "Descubra os últimos códigos de Card Chronicles Roblox para junho de 2026 e impulso seu experiência de jogo com recompensas gratuitas e bônus in-game.",
+      "date": "2026-06-28",
+      "path": "/pt/system/roblox"
     }
   ]
 }

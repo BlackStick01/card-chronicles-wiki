@@ -161,12 +161,12 @@
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "暂无",
+              "label": "None",
               "detail": "No official active redeem code confirmed",
               "badge": "No Active Code"
             },
             {
-              "label": "暂无",
+              "label": "None",
               "detail": "Check the official Roblox page and verified official channels for future rewards",
               "badge": "Unconfirmed"
             }

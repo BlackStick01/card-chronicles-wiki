@@ -1,0 +1,423 @@
+{
+  "site": {
+    "name": "Card Chronicles Wiki",
+    "shortName": "Card Chronicles",
+    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "tagline": "Cartas, forma??es, upgrades, ondas e ranks.",
+    "legalNotice": "Esta wiki independente feita por f?s n?o ? afiliada ? Roblox ou ? Chronicle Entertainment."
+  },
+  "nav": {
+    "guide": "Guia",
+    "codes": "C?digos",
+    "cards": "Cartas",
+    "lineup": "Forma??o",
+    "upgrades": "Upgrades",
+    "waves": "Ondas",
+    "ranks": "Ranks",
+    "system": "Sistema"
+  },
+  "guide": {
+    "overviewTitle": "Card Chronicles Guides",
+    "overviewDescription": "Beginner and progression guides for rolling, upgrades, waves, ranks, and Roblox basics."
+  },
+  "codes": {
+    "overviewTitle": "Card Chronicles Codes",
+    "overviewDescription": "Code status tracking with clear notes when no official active code is confirmed."
+  },
+  "cards": {
+    "overviewTitle": "Card Chronicles Cards",
+    "overviewDescription": "Card rolling, rare cards, best cards, and card list guides for Card Chronicles."
+  },
+  "lineup": {
+    "overviewTitle": "Card Chronicles Lineups",
+    "overviewDescription": "Lineup planning, team structure, and card composition guides."
+  },
+  "upgrades": {
+    "overviewTitle": "Card Chronicles Upgrades",
+    "overviewDescription": "Upgrade paths, ability unlocks, and progression priorities."
+  },
+  "waves": {
+    "overviewTitle": "Card Chronicles Waves",
+    "overviewDescription": "Endless wave fights, strong foes, and combat progression."
+  },
+  "ranks": {
+    "overviewTitle": "Card Chronicles Ranks",
+    "overviewDescription": "Rank climbing and long-term progression goals."
+  },
+  "system": {
+    "overviewTitle": "Card Chronicles System",
+    "overviewDescription": "Roblox platform, private server, mobile, PC, and max-player notes."
+  },
+  "home": {
+    "meta": {
+      "title": "Card Chronicles Wiki - Codes, Cards, Guide",
+      "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG."
+    },
+    "hero": {
+      "eyebrow": "Wiki de f?s da comunidade",
+      "title": "Card Chronicles",
+      "description": "Domine o ciclo RNG de cartas anime no Roblox com guias de rolagem, upgrades, forma??es, ondas e ranks. Esta wiki separa informa??es verificadas de rumores.",
+      "stats": [
+        "Roblox experience",
+        "Simulation",
+        "Incremental Simulator",
+        "Max 20 players",
+        "Updated Jun 27, 2026"
+      ],
+      "primaryCta": "Come?ar guia inicial",
+      "secondaryCta": "Explorar cartas",
+      "tertiaryCta": "Ver c?digos ativos",
+      "videoLabel": "Official Roblox media"
+    },
+    "video": {
+      "title": "Official Card Chronicles Roblox Media",
+      "description": "The visual module uses official Roblox thumbnail media for Card Chronicles, keeping the site tied to verified official assets rather than third-party images.",
+      "button": "Play on Roblox"
+    },
+    "recent": {
+      "eyebrow": "Recent Updates",
+      "title": "Novos guias de Card Chronicles",
+      "description": "Latest seoscout articles connected to the wiki navigation and sitemap."
+    },
+    "start": {
+      "eyebrow": "Start Here",
+      "title": "Sua jornada em Card Chronicles",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Beginner Guide",
+          "description": "Learn the verified core loop: roll cards, use favorites in fights, upgrade abilities, build a lineup, and push through waves."
+        },
+        {
+          "number": "2",
+          "title": "Card Rolling",
+          "description": "Understand how to organize your early pulls, chase rare cards, and avoid wasting time on unconfirmed claims."
+        },
+        {
+          "number": "3",
+          "title": "Lineup and Upgrades",
+          "description": "Plan a stronger card lineup around upgrades and unlocked abilities before taking on harder fights."
+        },
+        {
+          "number": "4",
+          "title": "Waves and Ranks",
+          "description": "Use wave and rank progression as your roadmap for long-term growth in Card Chronicles."
+        }
+      ]
+    },
+    "trending": {
+      "eyebrow": "Popular Pages",
+      "title": "Trending Now",
+      "items": [
+        "Beginner Guide",
+        "Codes",
+        "Best Cards",
+        "Lineup"
+      ]
+    },
+    "aboutGame": {
+      "title": "O que ? Card Chronicles?",
+      "paragraphs": [
+        "Card Chronicles is a Roblox anime card RNG and incremental simulator experience by Chronicle Entertainment. The official description focuses on rolling cards, upgrading them, unlocking abilities, and using favorite cards in combat.",
+        "The long-term loop is built around planning your lineup, fighting endless waves of card enemies, climbing ranks, and chasing rare cards. This wiki separates verified Roblox information from unconfirmed community claims."
+      ],
+      "stats": [
+        {
+          "label": "Developer",
+          "value": "Chronicle Entertainment"
+        },
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Simulation / Incremental Simulator"
+        },
+        {
+          "label": "Max Players",
+          "value": "20"
+        },
+        {
+          "label": "Universe ID",
+          "value": "9844129216"
+        },
+        {
+          "label": "Core Loop",
+          "value": "Roll, Upgrade, Fight"
+        }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "explore": {
+      "title": "Explore guias de Card Chronicles",
+      "description": "Start with verified Roblox information, then move into focused guides for codes, card rolling, upgrades, lineups, waves, ranks, and system notes.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Card Chronicles C?digos",
+          "description": "Track whether Card Chronicles has any official active Roblox redeem codes. No active official code is confirmed from the Roblox page or verified public official sources at this collection time, so this module keeps clear placeholders instead of inventing rewards.",
+          "href": "/codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "None",
+              "detail": "No official active redeem code confirmed",
+              "badge": "No Active Code"
+            },
+            {
+              "label": "None",
+              "detail": "Check the official Roblox page and verified official channels for future rewards",
+              "badge": "Unconfirmed"
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Card Chronicles Guia",
+          "description": "Start with the verified Roblox loop: roll cards, use favorite cards to fight, upgrade, unlock abilities, plan your lineup, and push through waves. This guide should help new players understand what is confirmed before they chase rare cards or rank progress.",
+          "href": "/guide/beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Join the Roblox experience and learn the card rolling loop before spending time on advanced goals."
+            },
+            {
+              "label": "2",
+              "detail": "Use favorite cards in fights and pay attention to upgrades that unlock stronger abilities."
+            },
+            {
+              "label": "3",
+              "detail": "Plan a lineup before taking on harder waves or rank goals."
+            },
+            {
+              "label": "4",
+              "detail": "Treat rare cards, waves, and ranks as long-term progression targets."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Card Chronicles Cartas",
+          "description": "Card Chronicles is centered on rolling and using anime-style cards in combat. This module covers the verified card intent while avoiding unconfirmed card lists, drop rates, or rarity tables until official data is available.",
+          "href": "/cards",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Roll",
+              "detail": "The official Roblox description confirms rolling as a core action."
+            },
+            {
+              "label": "Fight",
+              "detail": "Players use favorite cards to fight in the Card Chronicles loop."
+            },
+            {
+              "label": "Rare",
+              "detail": "The official page frames rare cards as a long-term chase goal."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Card Chronicles Best Cartas",
+          "description": "Players naturally search for the best cards, but no official best-card ranking is confirmed. This module should explain how to evaluate cards by upgrades, abilities, lineup role, wave performance, and rank goals without inventing a fake tier list.",
+          "href": "/cards/best-cards",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Reserve this tier for cards proven by verified data or strong repeatable performance once evidence exists.",
+              "badge": "Evidence Needed"
+            },
+            {
+              "label": "A",
+              "detail": "Cards with useful abilities, lineup value, or consistent wave performance can be evaluated here after testing.",
+              "badge": "Testing"
+            },
+            {
+              "label": "B",
+              "detail": "Early cards may still matter while players are learning rolling, upgrades, and combat basics.",
+              "badge": "Early Use"
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Card Chronicles Lineup Guide",
+          "description": "The official page confirms that players plan a lineup and dominate fights. This guide should focus on practical lineup thinking: balance upgraded cards, unlocked abilities, and wave pressure instead of copying unverified builds.",
+          "href": "/lineup/lineup",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Start with your strongest confirmed cards and identify which ones have useful unlocked abilities."
+            },
+            {
+              "label": "2",
+              "detail": "Arrange a lineup around fight needs rather than rarity alone."
+            },
+            {
+              "label": "3",
+              "detail": "Adjust your lineup after waves reveal where your damage or survival is weak."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Card Chronicles Upgrades",
+          "description": "Upgrades and ability unlocks are confirmed parts of Card Chronicles progression. This module explains upgrade priorities in a careful way, separating official mechanics from unconfirmed exact costs, multipliers, or card-specific numbers.",
+          "href": "/upgrades",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Upgrade",
+              "detail": "The official description confirms players upgrade cards."
+            },
+            {
+              "label": "Ability",
+              "detail": "Unlocking abilities is a verified part of progression."
+            },
+            {
+              "label": "Priority",
+              "detail": "Prioritize upgrades that help current fights, waves, or lineup goals."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Card Chronicles Waves",
+          "description": "Endless waves of cards and strong foes are confirmed by the Roblox page. This module covers wave progression as a core challenge, with advice focused on lineup checks, upgrades, and repeatable progress.",
+          "href": "/waves",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Use waves to test whether your current lineup can handle stronger foes."
+            },
+            {
+              "label": "2",
+              "detail": "When progress slows, return to rolling, upgrades, and ability unlocks."
+            },
+            {
+              "label": "3",
+              "detail": "Track which card roles help you survive longer before changing your plan."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Card Chronicles Ranks",
+          "description": "Rank climbing is listed as a goal on the official Roblox page. This module frames ranks as a long-term progression target connected to card rarity, upgrades, lineup planning, and wave performance.",
+          "href": "/ranks",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Goal",
+              "detail": "The official page says players can climb ranks and prove they are card battlers."
+            },
+            {
+              "label": "Progress",
+              "detail": "Ranks should be approached after the player understands rolling, upgrades, and lineups."
+            },
+            {
+              "label": "Proof",
+              "detail": "Avoid fake rank rewards or requirements unless they are verified in official sources."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114758508835875/Card-Chronicles",
+            "https://games.roblox.com/v1/games?universeIds=9844129216"
+          ]
+        }
+      ]
+    },
+    "faq": [
+      {
+        "question": "What is Card Chronicles?",
+        "answer": "Card Chronicles is a Roblox anime card RNG and incremental simulator game where players roll cards, upgrade them, unlock abilities, plan lineups, fight waves, and climb ranks."
+      },
+      {
+        "question": "Does Card Chronicles have active codes?",
+        "answer": "No official active Card Chronicles redeem code is confirmed right now. This wiki keeps code status clear and avoids invented rewards."
+      },
+      {
+        "question": "What should I read first in Card Chronicles?",
+        "answer": "Start with the beginner guide, then read cards, upgrades, lineup, waves, and ranks to understand the full progression loop."
+      },
+      {
+        "question": "Is Card Chronicles Wiki official?",
+        "answer": "No. Card Chronicles Wiki is an independent fan-made wiki and is not affiliated with Roblox or Chronicle Entertainment."
+      }
+    ],
+    "finalCta": {
+      "title": "Ready to Master Card Chronicles?",
+      "description": "Use this wiki to learn the verified basics, track code status, compare card and lineup ideas, and build a clearer path from early rolls to stronger waves and ranks.",
+      "primary": "Read the Beginner Guide",
+      "secondary": "Play Card Chronicles"
+    }
+  },
+  "footer": {
+    "aboutTitle": "Card Chronicles Wiki",
+    "about": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "playGame": "Play Card Chronicles",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Official YouTube",
+    "communityTool": "Community Tool",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "shared": {
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "C?digos",
+    "viewAllCodes": "View all codes",
+    "home": "Home",
+    "readMore": "Ler mais",
+    "latestArticles": "Artigos recentes",
+    "allArticles": "All Articles"
+  },
+  "sidebarCodes": [
+    {
+      "code": "None",
+      "reward": "C?digos: no official active redeem code confirmed"
+    },
+    {
+      "code": "None",
+      "reward": "Check official Roblox channels for future rewards"
+    }
+  ],
+  "metadata": {
+    "title": "Card Chronicles Wiki",
+    "description": "Card Chronicles Wiki cobre c?digos Roblox, rolagem de cartas, upgrades, forma??es, ondas, ranks e dicas para iniciantes do jogo anime RNG.",
+    "keywords": "card chronicles codes, card chronicles guide, card chronicles cards"
+  }
+}
