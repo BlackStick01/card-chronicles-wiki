@@ -25,6 +25,8 @@ export function AdFrame({
       height={height}
       scrolling="no"
       loading={loading}
+      sandbox="allow-scripts allow-forms"
+      referrerPolicy="strict-origin-when-cross-origin"
       className={className}
       style={{
         width,

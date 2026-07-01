@@ -3,7 +3,7 @@ export const adsConfig = {
 
   slots: {
     sticky320x50: {
-      enabled: true,
+      enabled: false,
       src: "/ads/banner-320x50.html",
       width: 320,
       height: 50,
